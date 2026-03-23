@@ -20,11 +20,18 @@ export const metadata: Metadata = {
     "Karnataka",
     "India",
   ],
+  icons: {
+    // Browser tab icon — your photo.png in /public/
+    icon: "/GaneshRP.png",
+    // iPhone home screen icon
+    apple: "/GaneshRP.png",
+  },
   openGraph: {
     title: "Ganesh R Pattanshetti — Software Engineer · Aspiring Data Scientist",
     description:
       "Talk to my AI Manager to learn more about my skills, projects, and availability.",
     type: "website",
+    images: ["/GaneshRP.png"],
   },
 };
 
